@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="24dp"
+    android:paddingLeft="24dp"
+    android:paddingTop="26dp"
+    android:paddingRight="24dp"
+    android:orientation="vertical"
+    tools:context=".ui.auth.signup.SignUpAddressFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone No."
+            android:layout_marginTop="10dp"
+            style="@style/TextView.PoppinsNormal16sp020202"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your phone number"
+            android:padding="10dp"
+            android:id="@+id/edtNumberPhone"
+            android:textColor="@color/text_color"
+            style="@style/EditText.PoppinsNormal14sp020202"
+            android:background="@drawable/shape_rectangel_edit_text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            style="@style/TextView.PoppinsNormal16sp020202"
+            />
+        <EditText
+            android:id="@+id/edtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your address"
+            android:padding="10dp"
+            android:textColor="@color/text_color"
+            style="@style/EditText.PoppinsNormal14sp020202"
+            android:background="@drawable/shape_rectangel_edit_text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="House No."
+            style="@style/TextView.PoppinsNormal16sp020202"
+            />
+
+        <EditText
+            android:id="@+id/edtNumberHome"
+            style="@style/EditText.PoppinsNormal14sp020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your house number"
+            android:padding="10dp"
+            android:textColor="@color/text_color"
+            android:background="@drawable/shape_rectangel_edit_text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="City"
+            style="@style/TextView.PoppinsNormal16sp020202"
+            />
+
+        <EditText
+            android:id="@+id/edtCity"
+            style="@style/EditText.PoppinsNormal14sp020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your city"
+            android:padding="10dp"
+            android:textColor="@color/text_color"
+            android:background="@drawable/shape_rectangel_edit_text"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSignUpNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Sign Up Now"
+            style="@style/Button.Primary"
+            android:layout_marginTop="24dp"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_edit_profile"
+    app:startDestination="@+id/fragmentEditProfile"
+    >
+
+    <fragment
+        android:name="com.example.foodmarket.ui.ui.profile.account.editprofile.EditProfileFragment"
+        tools:layout="@layout/fragment_edit_profile"
+        android:id="@+id/fragmentEditProfile">
+
+
+    </fragment>
+
+</navigation>

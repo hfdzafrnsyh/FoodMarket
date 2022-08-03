@@ -1,0 +1,150 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FoodMarket" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.FoodMarket.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+    </style>
+    <style name="Theme.AppBarOverLay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+    <style name="TextView"/>
+    <style name="TextView.PoppinsNormal32sp020202">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#020202</item>
+    </style>
+
+    <style name="TextView.PoppinsNormal22sp020202">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#020202</item>
+    </style>
+    <style name="TextView.PoppinsNormal20sp020202">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#020202</item>
+    </style>
+
+    <style name="TextView.PoppinsNormal18sp020202">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#020202</item>
+    </style>
+
+
+    <style name="TextView.PoppinsNormal16sp020202">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#020202</item>
+    </style>
+
+    <style name="TextView.PoppinsNormal14sp020202">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#020202</item>
+    </style>
+
+    <style name="TextView.PoppinsNormal12sp020202">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#020202</item>
+    </style>
+
+    <style name="TextView.PoppinsNormal10sp020202">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#020202</item>
+    </style>
+
+    <style name="TextView.PoppinsNormal16sp8D92A3">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#8D92A3</item>
+    </style>
+
+    <style name="TextView.PoppinsNormal14sp8D92A3">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#8D92A3</item>
+    </style>
+
+    <style name="TextView.PoppinsNormal13sp8D92A3">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#8D92A3</item>
+    </style>
+
+
+    <style name="TextView.PoppinsNormal12sp8D92A3">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#8D92A3</item>
+    </style>
+
+
+    <style name="TextView.PoppinsNormal10sp8D92A3">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#8D92A3</item>
+    </style>
+
+    <style name="TextView.PoppinsNormal14sp1ABC9C">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#1ABC9C</item>
+    </style>
+
+
+
+    <style name="EditText"/>
+
+    <style name="EditText.PoppinsNormal14sp020202">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#8D92A3</item>
+    </style>
+
+    <style name="Button"/>
+
+    <style name="Button.Primary">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#020202</item>
+        <item name="android:background">@drawable/shape_btn_primary</item>
+    </style>
+    <style name="Button.Secondary">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/shape_btn_secondary</item>
+    </style>
+
+
+    <style name="Tab">
+        <item name="android:fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#8D92A3</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="RatingBar">
+        <item name="android:colorControlNormal">#8D92A3</item>
+        <item name="android:colorControlActivated">#FFC700</item>
+
+    </style>
+
+</resources>

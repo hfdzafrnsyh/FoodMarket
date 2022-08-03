@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_detail"
+    app:startDestination="@+id/fragmentDetail"
+    >
+
+
+    <fragment
+        android:id="@+id/fragmentDetail"
+        android:name="com.example.foodmarket.ui.ui.detail.DetailFoodFragment"
+        tools:layout="@layout/fragment_detail_food">
+        <action
+            android:id="@+id/actionPayment"
+            app:destination="@id/fragmentPaymemt" />
+        <argument
+            android:name="data"
+            app:argType="com.example.foodmarket.model.response.home.Data"
+            app:nullable="true"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentPaymemt"
+        android:name="com.example.foodmarket.ui.ui.detail.payment.PaymentFragment"
+        tools:layout="@layout/fragment_payment">
+
+        <action
+            android:id="@+id/actionPaymentSuccess"
+            app:destination="@+id/fragmentPaymemtSuccess"
+            />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/fragmentPaymemtSuccess"
+        android:name="com.example.foodmarket.ui.ui.detail.payment.PaymentSuccessFragment"
+        tools:layout="@layout/fragment_payment_success"
+        ></fragment>
+
+
+</navigation>

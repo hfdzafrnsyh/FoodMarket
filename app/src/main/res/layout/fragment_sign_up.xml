@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="24dp"
+    android:paddingLeft="24dp"
+    android:paddingTop="26dp"
+    android:paddingRight="24dp"
+    android:orientation="vertical"
+    tools:context=".ui.auth.signup.SignUpFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:layout_marginTop="10dp"
+            style="@style/TextView.PoppinsNormal16sp020202"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your name"
+            android:padding="10dp"
+            android:id="@+id/edtName"
+            android:textColor="@color/text_color"
+            style="@style/EditText.PoppinsNormal14sp020202"
+            android:background="@drawable/shape_rectangel_edit_text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            style="@style/TextView.PoppinsNormal16sp020202"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your email address"
+            android:padding="10dp"
+            android:id="@+id/edtEmail"
+            android:textColor="@color/text_color"
+            style="@style/EditText.PoppinsNormal14sp020202"
+            android:background="@drawable/shape_rectangel_edit_text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            style="@style/TextView.PoppinsNormal16sp020202"
+            />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            style="@style/EditText.PoppinsNormal14sp020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your password"
+            android:textColor="@color/text_color"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:background="@drawable/shape_rectangel_edit_text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Password"
+            style="@style/TextView.PoppinsNormal16sp020202"
+            />
+
+        <EditText
+            android:id="@+id/edtConfirmedPassword"
+            style="@style/EditText.PoppinsNormal14sp020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your confirm password"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:textColor="@color/text_color"
+            android:background="@drawable/shape_rectangel_edit_text"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Continue"
+            style="@style/Button.Primary"
+            android:layout_marginTop="24dp"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+</LinearLayout>

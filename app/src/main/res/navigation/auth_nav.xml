@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/fragmentSignIn"
+    android:id="@+id/auth_nav">
+
+
+    <fragment
+        android:name="com.example.foodmarket.ui.auth.sign.SignInFragment"
+        tools:layout="@layout/fragment_sign_in"
+        android:id="@+id/fragmentSignIn">
+
+        <action
+            android:id="@+id/actionSignUp"
+            app:destination="@+id/fragmentSigUp"
+            />
+
+    </fragment>
+    <fragment
+        android:name="com.example.foodmarket.ui.auth.signup.SignUpFragment"
+        tools:layout="@layout/fragment_sign_up"
+        android:id="@+id/fragmentSignUp">
+
+        <action
+            android:id="@+id/actionSignUpAddress"
+            app:destination="@+id/fragmentSignUpAddress"
+            />
+
+    </fragment>
+
+    <fragment
+        android:name="com.example.foodmarket.ui.auth.signup.SignUpAddressFragment"
+        tools:layout="@layout/fragment_sign_up_address"
+        android:id="@+id/fragmentSignUpAddress">
+
+        <action
+            android:id="@+id/actionSignUpSuccess"
+            app:destination="@+id/fragmentSignUpSuccess"
+            />
+
+
+    </fragment>
+
+    <fragment
+        android:name="com.example.foodmarket.ui.auth.signup.SignUpSuccessFragment"
+        tools:layout="@layout/fragment_sign_up_success"
+        android:id="@+id/fragmentSignUpSuccess">
+    </fragment>
+
+</navigation>

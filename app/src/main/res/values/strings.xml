@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Food Market</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="yeay_completed">Yeay! Completed</string>
+    <string name="competed_text">Now you are able to order some foods as a self-reward</string>
+    <string name="success_sign_up">Success Sign Up</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_order">Order</string>
+    <string name="title_profile">Profile</string>
+    <string name="foodmarket">FoodMarket</string>
+    <string name="let_s_get_some_foods">Let’s get some foods</string>
+    <string name="cherry_healthy">Cherry Healthy</string>
+    <string name="price">Rp.28.000</string>
+    <string name="title_food">Title Food</string>
+    <string name="detaiL_string_food">Makanan khas Bandung yang cukup sering dipesan oleh anak muda dengan pola makan yang cukup tinggi dengan mengutamakan diet yang sehat dan teratur.</string>
+</resources>
